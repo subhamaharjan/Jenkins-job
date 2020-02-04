@@ -7,3 +7,4 @@
 # Hide the secrets file
 secrets.py
 creds.json
+credential.json
