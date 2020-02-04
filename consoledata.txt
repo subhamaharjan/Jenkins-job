@@ -1,0 +1,787 @@
+Started by timer
+Running as SYSTEM
+Building remotely on kube-prod-1 (kube-prod) in workspace /home/jenkins/agent/workspace/simplified list instances
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+Set build name.
+New build name is '#27156'
+[simplified list instances] $ /usr/bin/env python3 /tmp/jenkins5532021298214308819.sh
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-demo" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-url-test" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "vitalstrategies-staging-2" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "ori-test-stirling-10" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-tutorial-demo" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-tutorial-demo" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "pramerica-test1" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "ori-test-stirling-3" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "vitalstrategies-staging-2" not found
+Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "ori-test-stirling-11" not found
+
+
+== aberdeen
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-aberdeen@sha256:1f9b2a2b7ea4e922370a9363e9f5f6d64ec3c2afbd29dd74b0fd4fd051762ec3
+ready: null
+routes:
+- data.aberdeencity.gov.uk
+- cc-p-aberdeen.ckan.io
+
+
+
+== axenit
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-axenit
+ready: null
+routes:
+- cc-p-axenit.ckan.io
+- axenit-classic.ckan.io
+- axenit-clasic.ckan.io
+
+
+
+== axenit-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/datopian/montreal-p1911@sha256:bfed8fc42c1546686aea07943365b183e8a9af223f0b213c275d5c1061bcf2be
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- axenit.ckan.io
+
+
+
+== axenit-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-axenit-staging@sha256:8949e56dc874b56a091b821f639b13d14e408d38a8b4beb21af2dd20de9e32a6
+ready: null
+routes:
+- axenit-classic-staging.ckan.io
+- axenit-classic-staging.ckan.io
+- cc-p-axenit-staging.ckan.io
+
+
+
+== axenit-staging-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/datopian/montreal-p1911@sha256:bfed8fc42c1546686aea07943365b183e8a9af223f0b213c275d5c1061bcf2be
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- axenit-staging.ckan.io
+
+
+
+== birmingham
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-birmingham
+ready: null
+routes:
+- cc-p-birmingham.ckan.io
+- data.birmingham.gov.uk
+
+
+
+== cali
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-cali@sha256:e4f6ca20b94ed4d5c73a09910533f445771e8376619a4b04510ef499a013fef8
+ready: null
+routes:
+- cc-p-cali.ckan.io
+- cali.ckan.io
+
+
+
+== ckan-beta-2
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-ckan-beta@sha256:e3cc7a1326a909b11f0d0ebe34eaf76c054f47722fccc20e0390e9ffb71272b6
+  resources:
+    limits:
+      memory: 3Gi
+    requests:
+      memory: 2Gi
+ready: null
+routes:
+- beta.ckan.org
+
+
+
+== ckan-demo-3
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-ckan-demo@sha256:2e82f9f66814b71384297429adab05e695de50ddc29d3e2341528f35b18d9b13
+ready: null
+routes:
+- demo.ckan.org
+
+
+
+== ckan-master-2
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-ckan-master
+ready: null
+routes:
+- master.ckan.org
+
+
+
+== ckandemo-3
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-ckandemo@sha256:a422860ee3cda5511f4db17e3aa73a085243676a35385aa6f7f53f61d16c54e8
+ready: null
+routes:
+- cc-p-ckandemo.ckan.io
+
+
+
+== cloud-deploy-tutorial-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-deploy-tutorial-ng:latest
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- cloud-deploy-tutorial-ng.ckan.io
+
+
+
+== cnra
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-cnra
+ready: null
+routes:
+- cnra.ckan.io
+- cnra.ckan.io
+- cc-p-cnra.ckan.io
+
+
+
+== datahub
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-datahub
+ready: null
+routes:
+- old.datahub.io
+- cc-p-datahub.ckan.io
+
+
+
+== deploy-demo
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-deploy-demo@sha256:8dbd958ea6b15443f5705e0b89428b7949e03aa348b45d72509f75ca56e0e5f6
+ready: null
+routes:
+- cc-p-deploy-demo.ckan.io
+- deploy-demo.ckan.io
+
+
+
+== deploy-demo-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-deploy-demo-ng:latest
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- deploy-demo-ng.ckan.io
+
+
+
+== deploy-tutorial-demo
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-deploy-tutorial-demo
+ready: null
+routes:
+- cc-p-deploy-tutorial-demo.ckan.io
+
+
+
+== deploy-tutorial-ng
+
+ready: null
+
+
+
+== deploy-url-test
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-deploy-tutorial-demo
+ready: null
+routes:
+- cc-p-deploy-url-test.ckan.io
+
+
+
+== dodp
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-dodp@sha256:45e1f4f138e2eb3e06ed88275dfee9216d589d54736007da8bcc6f6ecfc21647
+ready: null
+routes:
+- www.xn--opendata-pnv-djb.de
+- www.opendata-opnv.de
+- www.opendata-oepnv.de
+- cc-p-dodp.ckan.io
+
+
+
+== dsm-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-dsm-staging@sha256:56b8a299746fe6ef27ebfafb932186cc9374373623471cd0e10f05e2330d316f
+ready: null
+routes:
+- dsm-staging.ckan.io
+- cc-p-dsm-staging.ckan.io
+
+
+
+== dundeecity
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-dundeecity@sha256:389ff6dc2c7bf5e3d9798c4cb2bb3f9c4ba45e571d9339933a0c1d35b446019e
+ready: null
+routes:
+- cc-p-dundeecity.ckan.io
+- data.dundeecity.gov.uk
+
+
+
+== honduras
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-honduras@sha256:0a2013adbede5356b23dd2429697e9b9718695715e7f4ac2574fba9b8e0c5f25
+ready: null
+routes:
+- honduras.ckan.io
+- cc-p-honduras.ckan.io
+
+
+
+== honduras-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-honduras-staging@sha256:5255d6d8d5dc011af2951806667cec6767856e7170dcdde24b6fcbb904c86ffe
+ready: null
+routes:
+- cc-p-honduras-staging.ckan.io
+- honduras-staging.ckan.io
+
+
+
+== lacounts
+
+ready: null
+
+
+
+== lacounts-2
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-lacounts@sha256:1766eb652d05df7cbcb63068a1feab7ff2f40422b4a646684e15e2be7b199679
+ready: null
+routes:
+- lacounts.ckan.io
+- cc-p-lacounts.ckan.io
+- lacounts.org
+- www.lacounts.org
+- cc-p-lacounts-2.ckan.io
+
+
+
+== lacounts-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-lacounts-staging@sha256:dd346d760ab5cf652523b91688c182d9ef7066a2e1bd3b9a242e6bf43140e82e
+ready: null
+routes:
+- cc-p-lacounts-staging.ckan.io
+
+
+
+== lincolnshire
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-lincolnshire
+ready: null
+routes:
+- cc-p-lincolnshire.ckan.io
+
+
+
+== lithuania
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-lithuania@sha256:2715755288dfb47205ea59eb99f57b05b2db0862a20a33b5ae0a2b58b82a8153
+ready: null
+routes:
+- lithuania.ckan.io
+- cc-p-lithuania.ckan.io
+
+
+
+== meerbusch
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-meerbusch
+ready: null
+routes:
+- opendata.meerbusch.de
+- cc-p-meerbusch.ckan.io
+
+
+
+== montreal
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-montreal@sha256:6f7b19a6e7a3f2608db4b327f1dfa67a9c8eda9aefa5341b6b948c88ff0a05bf
+ready: null
+routes:
+- cc-p-montreal.ckan.io
+- data.montreal.ca
+- montreal.l3.ckan.io
+
+
+
+== montreal-frontend
+
+ckanContainerSpec:
+  image: datopian/montreal-p1911
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- montreal-frontend.ckan.io
+- donnees.montreal.ca
+- montreal.ckan.io
+
+
+
+== montreal-frontend-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/datopian/montreal-p1911-staging@sha256:c248a984fb45a7234b1912445dfc59a4cfa5fe3d1e01b8da6f1bc17c25940687
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- montreal-frontend-staging.ckan.io
+
+
+
+== national-grid
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-national-grid@sha256:0128467ccc666c3b0b9b121ca5b96cfaf831437e95f13114775917cca30ee3ea
+ready: null
+routes:
+- cc-p-national-grid.ckan.io
+- national-grid-admin.ckan.io
+
+
+
+== national-grid-ng-1
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-national-grid-ng@sha256:c5c46aa1c62644f14280b2dd905967dc2fd726a4619ab48199d30e846fbe7f06
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- national-grid.ckan.io
+- data.nationalgrideso.com
+
+
+
+== national-grid-ng-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-national-grid-ng-staging@latest
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- national-grid-staging.ckan.io
+
+
+
+== national-grid-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-national-grid-staging@sha256:9e4dcd9e9d7da43c5571bc5ae639ceb4a421218170c8614f87fc1857c298490d
+ready: null
+routes:
+- national-grid-admin-staging.ckan.io
+- cc-p-national-grid-staging.ckan.io
+
+
+
+== nav
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-nav
+ready: null
+routes:
+- cc-p-nav.ckan.io
+- data.nav.no
+
+
+
+== navitasventures
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-navitasventures@sha256:f1071ea9fb1dd4fa730fc39a8a4e5a5de5f0ddaf0365a26b1ddf7fa53ee8a795
+ready: null
+routes:
+- cc-p-navitasventures.ckan.io
+
+
+
+== nhs
+
+ckanContainerSpec:
+  imageFromGitlab: datopian/cloud-images/cloud-nhs
+ready: null
+routes:
+- nhs.ckan.io
+- cc-p-nhs.ckan.io
+
+
+
+== ni
+
+ready: null
+
+
+
+== ni-5
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-ni@sha256:9ff512bbbef7f2ebf84fde783d73acdc80d92a31fcb2e32806fe0ae079e844e0
+ready: null
+routes:
+- cc-p-ni-5.ckan.io
+- cc-p-ni.ckan.io
+- www.opendatani.gov.uk
+
+
+
+== ni-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-ni-staging@sha256:c498d1ab40a7f83ad8964327b74acff1d25a6bcd723a89255c8906781e076d33
+ready: null
+routes:
+- ni-staging.ckan.io
+- cc-p-ni-staging.ckan.io
+
+
+
+== opendatadenmark
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-opendatadenmark@sha256:f72232d0f38b74ee41a5da8867807260284b1ad9cd901f5e9eb4c3a65522d967
+ready: null
+routes:
+- portal.opendata.dk
+- cc-p-opendatadenmark.ckan.io
+- admin.opendata.dk
+
+
+
+== opendatadenmark-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-opendatadenmark-ng@sha256:0a1bcf7e8a46ac83a1db10b067eb02fafb2bd1101d8eba210d1bf143e74bc57b
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- www1.opendata.dk
+- www.opendata.dk
+- opendatadenmark-frontend.l3.ckan.io
+- opendatadenmark-frontend.ckan.io
+
+
+
+== opendatadenmark-ng-staging
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-opendatadenmark-ng-staging:latest
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- opendatadenmark-ng-staging.ckan.io
+
+
+
+== opendatadenmark-staging
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-opendatadenmark-staging
+ready: null
+routes:
+- cc-p-opendatadenmark-staging.ckan.io
+- opendatadenmark-staging.ckan.io
+
+
+
+== panama
+
+ready: null
+
+
+
+== panama-2
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-panama@sha256:2e13af7577eb87d7f7d6da42b9cb864ac6b2bef0b9af20dd4cbd09bb4bb3f929
+ready: null
+routes:
+- cc-p-panama.ckan.io
+- panama.ckan.io
+- www.datosabiertos.gob.pa
+- cc-p-panama-2.ckan.io
+
+
+
+== perth
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-perth@sha256:d2b8d2f919e35ec8c8dcbe6f402ee83efb8a585ececb12f4c7099314aeefca51
+ready: null
+routes:
+- data.pkc.gov.uk
+- cc-p-perth.ckan.io
+
+
+
+== pramerica
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-pramerica@sha256:1a91f9139ddfaf945347b772020ea3b30fc14c046f8d2c99e6e7002536895789
+ready: null
+routes:
+- cc-p-pramerica.ckan.io
+- pramerica.ckan.io
+
+
+
+== sandia
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-sandia@sha256:c1f72c2ad134cd4a6cd8ad844e9e12ca0d5fa3a0f4e35c7173ca229aabf336fb
+ready: null
+routes:
+- cc-p-sandia.ckan.io
+- sandia.ckan.io
+
+
+
+== stirling
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-stirling@sha256:7227a5db439df29f1e0ab22f098946920e39af2e4183518e30fcd9456a778a67
+ready: null
+routes:
+- cc-p-stirling.ckan.io
+- data.stirling.gov.uk
+
+
+
+== us-ed
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-us-ed@sha256:7b1f8709131bd70d0e869d1e9b61433c1a854634784e74136111b897e476e400
+ready: null
+routes:
+- cc-p-us-ed.ckan.io
+- us-ed.l3.ckan.io
+
+
+
+== us-ed-ng
+
+ckanContainerSpec:
+  image: registry.gitlab.com/datopian/dept-ed-frontend@sha256:abeffa09dac94d7752d7cf894281c011525e61c99622e766807aca8420212fc9
+  resources:
+    limits:
+      memory: 1.5Gi
+    requests:
+      cpu: 500m
+      memory: 1Gi
+ready: null
+routes:
+- us-ed-ng.ckan.io
+
+
+
+== us-ed-testing
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-us-ed-testing@sha256:78e6f89ae4b3f429b6353ec2c236966939ddffee3f4bbe7748bdb2aac57b78d5
+ready: null
+routes:
+- us-ed-testing.ckan.io
+- cc-p-us-ed-testing.ckan.io
+
+
+
+== us-ed-testing-2
+
+ckanContainerSpec:
+  imageFromGitlab: viderum/cloud-us-ed-testing-2
+ready: null
+routes:
+- us-ed-testing-2.ckan.io
+- cc-p-us-ed-testing-2.ckan.io
+
+
+
+== vital-strategies
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-vital-strategies@sha256:e10653a29d733eda16b990289604a6fd644362eddffc964814afa042f552011c
+ready: null
+routes:
+- cc-p-vital-strategies.ckan.io
+- vital-strategies.l3.ckan.io
+
+
+
+== vrr
+
+ckanContainerSpec:
+  image: registry.gitlab.com/viderum/cloud-vrr@sha256:19e1ebde11a00ed9fc938b1c436f732c1330e4d8f45d89beff3eedbd8917fe52
+ready: null
+routes:
+- www.openvrr.de
+- cc-p-vrr.ckan.io
+
+
+
+== cloud-deploy-demo
+
+ready: null
+routes:
+- cloud-deploy-demo.ckan.io
+
+
+
+== cloud-deploy-url-test
+
+ready: null
+routes:
+- cloud-deploy-url-test.ckan.io
+
+
+
+== vitalstrategies-staging-2
+
+ready: null
+routes:
+- cc-p-vitalstrategies-staging.ckan.io
+- vitalstrategies-staging.l3.ckan.io
+
+
+
+== ori-test-stirling-10
+
+ready: null
+routes:
+- cc-p-ori-test-stirling-10.ckan.io
+
+
+
+== cloud-deploy-tutorial-demo
+
+ready: null
+routes:
+- cc-p-cloud-deploy-tutorial-demo.ckan.io
+- cloud-deploy-tutorial-demo.ckan.io
+
+
+
+== pramerica-test1
+
+ready: null
+routes:
+- cc-p-pramerica-test1.ckan.io
+
+
+
+== ori-test-stirling-3
+
+ready: null
+routes:
+- cc-p-ori-test-stirling-3.ckan.io
+
+
+
+== ori-test-stirling-11
+
+ready: null
+routes:
+- cc-p-ori-test-stirling-11.ckan.io
+
+Set build name.
+New build name is '#27156'
+Finished: SUCCESS

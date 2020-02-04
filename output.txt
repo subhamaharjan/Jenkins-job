@@ -1,0 +1,243 @@
+Client Name: aberdeen
+routes:
+- data.aberdeencity.gov.uk
+- cc-p-aberdeen.ckan.io
+Client Name: axenit
+routes:
+- cc-p-axenit.ckan.io
+- axenit-classic.ckan.io
+- axenit-clasic.ckan.io
+Client Name: axenit-ng
+routes:
+- axenit.ckan.io
+Client Name: axenit-staging
+routes:
+- axenit-classic-staging.ckan.io
+- axenit-classic-staging.ckan.io
+- cc-p-axenit-staging.ckan.io
+Client Name: axenit-staging-ng
+routes:
+- axenit-staging.ckan.io
+Client Name: birmingham
+routes:
+- cc-p-birmingham.ckan.io
+- data.birmingham.gov.uk
+Client Name: cali
+routes:
+- cc-p-cali.ckan.io
+- cali.ckan.io
+Client Name: ckan-beta-2
+routes:
+- beta.ckan.org
+Client Name: ckan-demo-3
+routes:
+- demo.ckan.org
+Client Name: ckan-master-2
+routes:
+- master.ckan.org
+Client Name: ckandemo-3
+routes:
+- cc-p-ckandemo.ckan.io
+Client Name: cloud-deploy-tutorial-ng
+routes:
+- cloud-deploy-tutorial-ng.ckan.io
+Client Name: cnra
+routes:
+- cnra.ckan.io
+- cnra.ckan.io
+- cc-p-cnra.ckan.io
+Client Name: datahub
+routes:
+- old.datahub.io
+- cc-p-datahub.ckan.io
+Client Name: deploy-demo
+routes:
+- cc-p-deploy-demo.ckan.io
+- deploy-demo.ckan.io
+Client Name: deploy-demo-ng
+routes:
+- deploy-demo-ng.ckan.io
+Client Name: deploy-tutorial-demo
+routes:
+- cc-p-deploy-tutorial-demo.ckan.io
+Client Name: deploy-tutorial-ng
+Client Name: deploy-url-test
+routes:
+- cc-p-deploy-url-test.ckan.io
+Client Name: dodp
+routes:
+- www.xn--opendata-pnv-djb.de
+- www.opendata-opnv.de
+- www.opendata-oepnv.de
+- cc-p-dodp.ckan.io
+Client Name: dsm-staging
+routes:
+- dsm-staging.ckan.io
+- cc-p-dsm-staging.ckan.io
+Client Name: dundeecity
+routes:
+- cc-p-dundeecity.ckan.io
+- data.dundeecity.gov.uk
+Client Name: honduras
+routes:
+- honduras.ckan.io
+- cc-p-honduras.ckan.io
+Client Name: honduras-staging
+routes:
+- cc-p-honduras-staging.ckan.io
+- honduras-staging.ckan.io
+Client Name: lacounts
+Client Name: lacounts-2
+routes:
+- lacounts.ckan.io
+- cc-p-lacounts.ckan.io
+- lacounts.org
+- www.lacounts.org
+- cc-p-lacounts-2.ckan.io
+Client Name: lacounts-staging
+routes:
+- cc-p-lacounts-staging.ckan.io
+Client Name: lincolnshire
+routes:
+- cc-p-lincolnshire.ckan.io
+Client Name: lithuania
+routes:
+- lithuania.ckan.io
+- cc-p-lithuania.ckan.io
+Client Name: meerbusch
+routes:
+- opendata.meerbusch.de
+- cc-p-meerbusch.ckan.io
+Client Name: montreal
+routes:
+- cc-p-montreal.ckan.io
+- montreal.l3.ckan.io
+Client Name: montreal-frontend
+routes:
+- montreal-frontend.ckan.io
+- montreal.ckan.io
+Client Name: montreal-frontend-staging
+routes:
+- montreal-frontend-staging.ckan.io
+Client Name: national-grid
+routes:
+- cc-p-national-grid.ckan.io
+- national-grid-admin.ckan.io
+Client Name: national-grid-ng-1
+routes:
+- national-grid.ckan.io
+- data.nationalgrideso.com
+Client Name: national-grid-ng-staging
+routes:
+- national-grid-staging.ckan.io
+Client Name: national-grid-staging
+routes:
+- national-grid-admin-staging.ckan.io
+- cc-p-national-grid-staging.ckan.io
+Client Name: nav
+routes:
+- cc-p-nav.ckan.io
+- data.nav.no
+Client Name: navitasventures
+routes:
+- cc-p-navitasventures.ckan.io
+Client Name: nhs
+routes:
+- nhs.ckan.io
+- cc-p-nhs.ckan.io
+Client Name: ni
+Client Name: ni-5
+routes:
+- cc-p-ni-5.ckan.io
+- cc-p-ni.ckan.io
+- www.opendatani.gov.uk
+Client Name: ni-staging
+routes:
+- ni-staging.ckan.io
+- cc-p-ni-staging.ckan.io
+Client Name: opendatadenmark
+routes:
+- portal.opendata.dk
+- cc-p-opendatadenmark.ckan.io
+- admin.opendata.dk
+Client Name: opendatadenmark-ng
+routes:
+- www1.opendata.dk
+- www.opendata.dk
+- opendatadenmark-frontend.l3.ckan.io
+- opendatadenmark-frontend.ckan.io
+Client Name: opendatadenmark-ng-staging
+routes:
+- opendatadenmark-ng-staging.ckan.io
+Client Name: panama
+Client Name: panama-2
+routes:
+- cc-p-panama.ckan.io
+- panama.ckan.io
+- www.datosabiertos.gob.pa
+- cc-p-panama-2.ckan.io
+Client Name: perth
+routes:
+- data.pkc.gov.uk
+- cc-p-perth.ckan.io
+Client Name: pramerica
+routes:
+- cc-p-pramerica.ckan.io
+- pramerica.ckan.io
+Client Name: sandia
+routes:
+- cc-p-sandia.ckan.io
+- sandia.ckan.io
+Client Name: stirling
+routes:
+- cc-p-stirling.ckan.io
+- data.stirling.gov.uk
+Client Name: us-ed
+routes:
+- cc-p-us-ed.ckan.io
+- us-ed.l3.ckan.io
+Client Name: us-ed-ng
+routes:
+- us-ed-ng.ckan.io
+Client Name: us-ed-testing
+routes:
+- us-ed-testing.ckan.io
+- cc-p-us-ed-testing.ckan.io
+Client Name: us-ed-testing-2
+routes:
+- us-ed-testing-2.ckan.io
+- cc-p-us-ed-testing-2.ckan.io
+Client Name: vital-strategies
+routes:
+- cc-p-vital-strategies.ckan.io
+- vital-strategies.l3.ckan.io
+Client Name: vrr
+routes:
+- www.openvrr.de
+- cc-p-vrr.ckan.io
+Client Name: cloud-deploy-demo
+routes:
+- cloud-deploy-demo.ckan.io
+Client Name: cloud-deploy-url-test
+routes:
+- cloud-deploy-url-test.ckan.io
+Client Name: vitalstrategies-staging-2
+routes:
+- cc-p-vitalstrategies-staging.ckan.io
+- vitalstrategies-staging.l3.ckan.io
+Client Name: ori-test-stirling-10
+routes:
+- cc-p-ori-test-stirling-10.ckan.io
+Client Name: cloud-deploy-tutorial-demo
+routes:
+- cc-p-cloud-deploy-tutorial-demo.ckan.io
+- cloud-deploy-tutorial-demo.ckan.io
+Client Name: pramerica-test1
+routes:
+- cc-p-pramerica-test1.ckan.io
+Client Name: ori-test-stirling-3
+routes:
+- cc-p-ori-test-stirling-3.ckan.io
+Client Name: ori-test-stirling-11
+routes:
+- cc-p-ori-test-stirling-11.ckan.io

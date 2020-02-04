@@ -1,0 +1,9 @@
+# ignore these files
+/__pycache__/
+.vscode
+/venv/
+
+
+# Hide the secrets file
+secrets.py
+creds.json
