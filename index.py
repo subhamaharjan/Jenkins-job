@@ -1,5 +1,6 @@
 import jenkins
 import csv
+import time
 from secrets import gc, sheet, token
 
 # Connect to the Jenkins server
@@ -57,12 +58,31 @@ with open('jenkins.csv', 'w', newline="\n") as output:
     writer.writerow(i for i in header)
     for j in data:
         writer.writerow(j)
-       
-# Upload csv file to google sheets
-content = open("jenkins.csv",'r').read()
-gc.import_csv('1jbhuF3gyLs7NLrRZRLprzm52Aa68FiYZ3cC3BuKHldU',content)
 
+#clear the spreadsheet
+sheet.clear()
 
+# Push the data of csv to spreadsheet
+row = 1
+column = 1
+requestCount = 0
+#limit for write request per 100 seconds
+writeQuota = 90 
+Fi = []
+Fi = open("jenkins.csv",'r')
+for value in Fi:
+    items = value.strip().split(',')
+    for item in items:
+        if(requestCount == writeQuota):
+            time.sleep(100)
+            requestCount = 0
+        sheet.update_cell(row, column, item)
+        requestCount += 1
+        column += 1
+    row += 1
+    column = 1
+
+Fi.close()
 
 if __name__ == "__main__":
  
