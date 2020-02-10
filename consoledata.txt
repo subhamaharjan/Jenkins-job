@@ -5,8 +5,8 @@ Building remotely on kube-prod-1 (kube-prod) in workspace /home/jenkins/agent/wo
 [WS-CLEANUP] Deferred wipeout is used...
 [WS-CLEANUP] Done
 Set build name.
-New build name is '#27156'
-[simplified list instances] $ /usr/bin/env python3 /tmp/jenkins5532021298214308819.sh
+New build name is '#27804'
+[simplified list instances] $ /usr/bin/env python3 /tmp/jenkins6242322193375473414.sh
 Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-demo" not found
 Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "cloud-deploy-url-test" not found
 Error from server (NotFound): ckancloudckaninstances.stable.viderum.com "vitalstrategies-staging-2" not found
@@ -261,7 +261,7 @@ routes:
 == dsm-staging
 
 ckanContainerSpec:
-  image: registry.gitlab.com/viderum/cloud-dsm-staging@sha256:56b8a299746fe6ef27ebfafb932186cc9374373623471cd0e10f05e2330d316f
+  image: registry.gitlab.com/viderum/cloud-dsm-staging@sha256:e5b1d286cef5df0c78e55f37c2315efdb998dc7573aee020e6fea10cd771e76c
 ready: null
 routes:
 - dsm-staging.ckan.io
@@ -457,7 +457,7 @@ routes:
 == national-grid-staging
 
 ckanContainerSpec:
-  image: registry.gitlab.com/viderum/cloud-national-grid-staging@sha256:9e4dcd9e9d7da43c5571bc5ae639ceb4a421218170c8614f87fc1857c298490d
+  image: registry.gitlab.com/viderum/cloud-national-grid-staging@sha256:04ce2b61642c68980b994b49c80a6c8fe00cbe4d3633556fc344a7fb440d1ab1
 ready: null
 routes:
 - national-grid-admin-staging.ckan.io
@@ -493,6 +493,7 @@ ckanContainerSpec:
 ready: null
 routes:
 - nhs.ckan.io
+- opendata.nhsbsa.net
 - cc-p-nhs.ckan.io
 
 
@@ -529,7 +530,7 @@ routes:
 == opendatadenmark
 
 ckanContainerSpec:
-  image: registry.gitlab.com/viderum/cloud-opendatadenmark@sha256:f72232d0f38b74ee41a5da8867807260284b1ad9cd901f5e9eb4c3a65522d967
+  image: registry.gitlab.com/viderum/cloud-opendatadenmark@sha256:2c7b03645f3e2267161a3c02d404205a9e6160607455bf765038feb6d3aa2386
 ready: null
 routes:
 - portal.opendata.dk
@@ -783,5 +784,5 @@ routes:
 - cc-p-ori-test-stirling-11.ckan.io
 
 Set build name.
-New build name is '#27156'
+New build name is '#27804'
 Finished: SUCCESS
